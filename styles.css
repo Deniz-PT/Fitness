@@ -1,0 +1,22 @@
+#bild {
+    height: 500px;
+    width: 1700px;
+}
+#Logo{
+    height: 9.5%;
+    width: 9.5%;
+}
+.parallax {
+    /* The image used */
+    background-image: url("Images/FitnessBild_Test.jpg");
+  
+    /* Set a specific height */
+    height: 1000px; 
+    width: 1700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
