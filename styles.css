@@ -13,10 +13,10 @@
 }
 .parallax {
     /* The image used */
-    background-image: url("Images/FitnessBild_Test.jpg");
+    background-image: url("Images/Legextension_Deniz.jpg");
   
     /* Set a specific height */
-    height: 1000px; 
+    height: 2000px; 
     width: 1700px;
   
     /* Create the parallax scrolling effect */
@@ -24,5 +24,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .navbartext{
+    color: orange;
   }
 
