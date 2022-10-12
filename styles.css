@@ -82,7 +82,12 @@
   }
   .groesseBild{
     height: 600px;
-    width: 550px;
+    width: 600px;
+  }
+
+  .groesseProdukte{
+    height: 300px;
+    width: 200px;
   }
   
 
