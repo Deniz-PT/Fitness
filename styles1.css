@@ -4,9 +4,10 @@ p, h1, h2, h3 {
 
 .parallax {
     /* The image used */
-    background-image: url("Images/Aktion_Deniz.png");
+    background-clip: url("Images/neuesgymvideo.mp4");
     /* Set a specific height */
-    height: 1000px;
+    height: 743px;
+    
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: bottom center;
