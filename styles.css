@@ -16,12 +16,11 @@
     background-image: url("Images/Aktion_Deniz.png");
   
     /* Set a specific height */
-    height: 850px; 
-    width: 1700px;
+    height: 1000px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -85,4 +84,5 @@
     height: 600px;
     width: 550px;
   }
+  
 
