@@ -1,0 +1,13 @@
+.footerfanugu {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(50, 49, 49);
+    color: white;
+    width: 100%;
+  }
+
+  .titlefanagu {
+    text-align: center;
+    margin-top: 2%;
+    text-decoration: underline;
+  }
