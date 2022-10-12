@@ -11,19 +11,6 @@
     height: 9.5%;
     width: 9.5%;
 }
-.parallax {
-    /* The image used */
-    background-image: url("Images/Aktion_Deniz.png");
-  
-    /* Set a specific height */
-    height: 1000px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
   .navbartext{
     color: orange;
@@ -90,4 +77,3 @@
     width: 200px;
   }
   
-
