@@ -3,9 +3,26 @@ html {
     height: 100%;
 }
 
+.container {
+  margin-top: 50px;
+}
+
+.logoimage {
+  width: 20%;
+  height: 20%;
+}
+.navbar-brand {
+  top: left;
+}
 p, h1, h2, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+p {
+  font-size: 150%;
+}
+
+
 
 .parallax {
     /* The image used */
@@ -33,18 +50,18 @@ p, h1, h2, h3 {
 
 .standorttext {
     text-decoration: underline;
-    margin-left: 200px;
+    margin-left: 40%;
 }
 
 .imagesstandorte {
-    margin: 12px;
-    border-radius: 20px;
-    width: 500px;
-    height: 420px;
+    margin: 3%;
+    border-radius: 14%;
+    width: 90%;
+    height: 90%;
 }
 
 .teamh2 {
-    margin-left: 10px;
+    margin-left: 1%;
     text-decoration: underline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -65,7 +82,7 @@ p, h1, h2, h3 {
 .columnstandorte {
     float: left;
     width: 50%;
-    padding: 10px;
+    padding: 1%;
   }
   
   /* Clear floats after image containers */
@@ -85,17 +102,6 @@ p, h1, h2, h3 {
     clear: both;
     display: table;
   }
-
-section {
-  width: 100%;
-  display: inline-block;
-  background: #333;
-  height: 50vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
-}
 
 .footer-distributed{
   background: black;
@@ -230,30 +236,30 @@ section {
 .footer-distributed .footer-company-about span{
   display: block;
   color:  #ffffff;
-  font-size: 14px;
+  font-size: 2%;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 2%;
 }
 
 .footer-distributed .footer-icons{
-  margin-top: 25px;
+  margin-top: 2%;
 }
 
 .footer-distributed .footer-icons a{
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 3%;
+  height: 3%;
   cursor: pointer;
   background-color:  #33383b;
-  border-radius: 2px;
+  border-radius: 1%;
 
-  font-size: 20px;
+  font-size: 2%;
   color: #ffffff;
   text-align: center;
-  line-height: 35px;
+  line-height: 3%;
 
-  margin-right: 3px;
-  margin-bottom: 5px;
+  margin-right: 1%;
+  margin-bottom: 1%;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
