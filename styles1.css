@@ -22,7 +22,19 @@ p {
   font-size: 150%;
 }
 
+#vorteileimage {
+  position:absolute;
+  right:0;
+}
 
+#oeffnungszeiten {
+  width: 100%;
+  border: 10%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 200%;
+  border: none;
+  margin-left: 20%;
+}
 
 .parallax {
     /* The image used */
