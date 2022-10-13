@@ -1,4 +1,6 @@
 
+html{ width: 100%; height: 100%;}
+
 #bild {
     height: 500px;
     width: 1700px;
@@ -67,27 +69,44 @@
   .button:hover {
     background-color: #555;
   }
-  .groesseBild{
+  /*.groesseBild{
     height: 600px;
     width: 600px;
   }
+  */
 
   .groesseProdukte{
-    height: 300px;
-    width: 250px;
+    height: 30%;
+    width: 20%;
   }
-  
-  .groesseProtein{
-    height:  300px;
-    width: 500px;
+  .groesseKreatin{
+    height: 30%;
+    width: 25.7%;
   }
+
   .groesseBelt{
-    height: 300px;
-    width: 400px;
+    height: 40%;
+    width: 27%;
   }
   .groesseShaker{
-    height: 300px;
-    width: 200px;
+    height: 20%;
+    width: 15%;
+  }
+  .groesseProteinbar{
+    height:  30%;
+    width: 35%;
+  }
+  .groessePreworkout{
+    height: 30%;
+    width: 20%;
+  }
+  .groesseHandschuhe{
+    height: 30%;
+    width: 20%;
+  }
+  .groesseKleider{
+    height: 30%;
+    width: 20%;
   }
 /*  Login Funktion 
   body, html {
