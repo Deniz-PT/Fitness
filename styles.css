@@ -40,6 +40,13 @@
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
   
   /* Some left and right padding inside the container */
   .containers {
@@ -74,47 +81,47 @@
   }
   .groesseFlexbildDeniz{
     height: 60%;
-    width: 60%;
+    width: 30%;
     margin-left: 20%;
   }
   .groesseFlexbildJann{
     height: 50%;
-    width: 44.5%;
+    width: 30%;
     margin-left: 20%;
   }
   
   .groesseProdukte{
-    height: 25%;
-    width: 20%;
+    height: 21  0px;
+    width: 180px;
   }
   .groesseKreatin{
-    height: 30%;
-    width: 25.7%;
+    height: 210px;
+    width: 180px;
   }
 
   .groesseBelt{
-    height: 40%;
-    width: 27%;
+    height: 190px;
+    width: 300px;
   }
   .groesseShaker{
-    height: 20%;
-    width: 15%;
+    height: 220px;
+    width: 180px;
   }
   .groesseProteinbar{
-    height:  30%;
-    width: 35%;
+    height:  180px;
+    width: 300px;
   }
   .groessePreworkout{
-    height: 30%;
-    width: 20%;
+    height: 200px;
+    width: 180px;
   }
   .groesseHandschuhe{
-    height: 30%;
-    width: 20%;
+    height: 200px;
+    width: 180px;
   }
   .groesseKleider{
-    height: 30%;
-    width: 20%;
+    height: 210px;
+    width: 180px;
   }
   
 
@@ -328,6 +335,7 @@ h1{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 880px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
