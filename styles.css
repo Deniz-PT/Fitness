@@ -1,5 +1,4 @@
 
-html{ width: 100%; height: 100%;}
 
 #bild {
     height: 500px;
@@ -35,6 +34,10 @@ html{ width: 100%; height: 100%;}
   
   /* Add some shadows to create a card effect */
   .card {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
   
@@ -311,7 +314,20 @@ html{ width: 100%; height: 100%;}
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.rowprodukte{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.titlefanagu{
+  width: 100vw;
+  margin-bottom: 50px;
+}
+h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 880px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {

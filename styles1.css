@@ -83,7 +83,7 @@ p {
 
 .standorttext {
     text-decoration: underline;
-    margin-left: 40%;
+    text-align: center;
 }
 
 .imagesstandorte {
@@ -127,7 +127,7 @@ p {
 
   .column {
     float: left;
-    width: 50%;
+    width: 40vw;
   }
   .row::after {
     content: "";
@@ -395,10 +395,12 @@ p {
 }
 
 .imagesstandorte {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  display: flex;
+  width: 40vw;
+  float: left;
+  align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .teamh2 {
