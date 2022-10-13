@@ -105,17 +105,16 @@ p {
 }
 
 .teamh2 {
-    margin-left: 1%;
-    text-decoration: underline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
 }
 
 
   .titlefanagu {
     text-align: center;
     margin-top: 2%;
-    text-decoration: underline;
   }
 
 * {
@@ -436,7 +435,6 @@ p {
   .titlefanagu {
     text-align: center;
     margin-top: 2%;
-    text-decoration: underline;
   }
 
   @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
