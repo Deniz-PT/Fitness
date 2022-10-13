@@ -82,9 +82,8 @@ p {
     background-size: cover;
   }
 
-.groessebild {
+.groesseBild {
     width: 40%; 
-    height: 40%;
 }
 
 .h1index{
@@ -107,6 +106,7 @@ p {
     margin-left: 1%;
     text-decoration: underline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 
@@ -400,9 +400,8 @@ p {
     background-size: cover;
   }
 
-.groessebild {
+.groesseBild {
     width: 40%; 
-    height: 40%;
 }
 
 .h1index{

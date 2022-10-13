@@ -80,13 +80,11 @@
     background-color: #555;
   }
   .groesseFlexbildDeniz{
-    height: 60%;
-    width: 30%;
+    height: 500px;
     margin-left: 20%;
   }
   .groesseFlexbildJann{
-    height: 50%;
-    width: 30%;
+    height: 500px;
     margin-left: 20%;
   }
   
@@ -334,6 +332,14 @@ h1{
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.row{
+  margin: 0 !important; 
+}
+
+.rowteamh2 {
+  display: flex;
+    justify-content: center;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
