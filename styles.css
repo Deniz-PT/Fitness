@@ -69,12 +69,17 @@ html{ width: 100%; height: 100%;}
   .button:hover {
     background-color: #555;
   }
-  /*.groesseBild{
-    height: 600px;
-    width: 600px;
+  .groesseFlexbildDeniz{
+    height: 60%;
+    width: 60%;
+    margin-left: 20%;
   }
-  */
-
+  .groesseFlexbildJann{
+    height: 50%;
+    width: 44.5%;
+    margin-left: 20%;
+  }
+  
   .groesseProdukte{
     height: 30%;
     width: 20%;
@@ -108,6 +113,8 @@ html{ width: 100%; height: 100%;}
     height: 30%;
     width: 20%;
   }
+  
+
 /*  Login Funktion 
   body, html {
     height: 100%;
@@ -337,4 +344,4 @@ html{ width: 100%; height: 100%;}
     text-align: left;
   }
 }
-  
+@media (max-width: 880px){}
