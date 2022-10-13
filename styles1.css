@@ -8,6 +8,10 @@ html {
 }
 
 .carduns {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -367,6 +371,10 @@ p {
 }
 
 .carduns {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
