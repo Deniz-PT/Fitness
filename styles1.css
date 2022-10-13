@@ -30,9 +30,7 @@ html {
   width: 20%;
   height: 20%;
 }
-.navbar-brand {
-  top: left;
-}
+
 p, h1, h2, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -74,7 +72,7 @@ p {
 
 .parallax {
     /* The image used */
-    background-clip: url("Images/ganzneuesgymvideo.mp4");
+    background-image: url("Images/ganzneuesgymvideo.mp4");
     /* Set a specific height */
     height: 48%;
     width: 100%;
@@ -119,8 +117,6 @@ p {
     margin-top: 2%;
     text-decoration: underline;
   }
-
-  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
   font-family: Open Sans;
@@ -343,9 +339,7 @@ p {
   width: 20%;
   height: 20%;
 }
-.navbar-brand {
-  top: left;
-}
+
 p, h1, h2, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -396,7 +390,7 @@ p {
 
 .parallax {
     /* The image used */
-    background-clip: url("Images/ganzneuesgymvideo.mp4");
+    background-image: url("Images/ganzneuesgymvideo.mp4");
     /* Set a specific height */
     height: 100%;
     width: 100%;
@@ -475,6 +469,4 @@ p {
     clear: both;
     display: table;
   }
-
-
 }
