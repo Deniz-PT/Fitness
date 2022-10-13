@@ -23,7 +23,8 @@ p, h1, h2, h3 {
 }
 
 h3 {
-  text-align: left;
+  position: relative;
+  right: 6%;
 }
 
 td {
