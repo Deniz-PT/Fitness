@@ -8,28 +8,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="styles1.css">
+  <script src="Fanugu.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <body style="height:1500px">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                  <a href="index.html">
-                  <img alt="logo" class ="img img-responsive" id = "logostandort" style= "top: left;"  class="navbar-brand" src="Images/Fanugu_JIM.png">
-                  </a>
-              </div>
-              <ul class="nav navbar-nav">
-                <li><a href="index.html">Startseite</a></li>
-                <li><a href="standorte.html"> Standorte</a></li>
-                <li><a href="produkte.html">Produkte</a></li>
-                <li><a href="team.html"><strong class ="navbartext">Team</strong></a></li>
-                <li><a href="ueberuns.html">Über uns</a></li>
-                <!---- <li><a href="login.html">Log in</a></li>-->
-              </ul>
-            </div> 
-          </nav>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Startseite</a>
+    <a href="standorte.html">Standorte</a>
+    <a href="produkte.html">Produkte</a>
+    <a href="team.html"><strong class ="navbartext">Team</strong></a>
+    <a href="ueberuns.html">Über uns</a>
+    <a href="javascript:void(0);" class="icon" onclick="RWDnavbar()">&#9776;</a>
+  </div>
           <div class="container">
             <h1 class="titlefanagu">Team</h1>
             <div class="row">
@@ -153,6 +144,5 @@
                 <i class="fa fa-envelope"></i>
                 <p><a href="mailto:support@company.com">support@fanugugym.com</a></p>
               </div>
-</body>
 </body>
 </html>
