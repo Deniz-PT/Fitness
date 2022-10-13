@@ -75,19 +75,18 @@
     cursor: pointer;
     width: 100%;
   }
+  .groesseFlexbildDeniz{
+    height: 500px;
+  }
+  .groesseFlexbildJann{
+    height: 500px;
+    width: 400px;
+  }
   
   .button:hover {
     background-color: #555;
   }
-  .groesseFlexbildDeniz{
-    height: 500px;
-    margin-left: 20%;
-  }
-  .groesseFlexbildJann{
-    height: 500px;
-    margin-left: 20%;
-  }
-  
+
   .groesseProdukte{
     height: 21  0px;
     width: 180px;
@@ -374,4 +373,6 @@ h1{
     text-align: left;
   }
 }
-@media (max-width: 880px){}
+@media (max-width: 880px){
+
+}
