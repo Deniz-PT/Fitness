@@ -159,7 +159,9 @@ p {
     clear: both;
     display: table;
   }
-
+.angebottext {
+  text-align: center;
+}
 .footer-distributed{
   background: black;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -358,18 +360,24 @@ p, h1, h2, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.angebottext {
+  text-align: center;
+}
+
 td {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-right: 2px;
 }
 
 .angebotebilder {
-  width: 25vw;
+  width: 50vw;
 }
 
 .rowangebote {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
 .columnangebote {
@@ -416,6 +424,13 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.rowteamh2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
 }
 
 .parallax {
