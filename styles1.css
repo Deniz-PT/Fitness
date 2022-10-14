@@ -426,6 +426,10 @@ p {
   width: 50%;
 }
 
+.navbarImage {
+  width: 0px;
+}
+
 .rowteamh2 {
   display: flex;
   justify-content: space-around;
