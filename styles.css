@@ -43,7 +43,7 @@
   .cards{
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 500px;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
