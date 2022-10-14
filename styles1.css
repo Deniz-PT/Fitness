@@ -35,6 +35,21 @@ p, h1, h2, h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.angebotebilder {
+  width: 25vw;
+}
+
+.rowangebote {
+  display: flex;
+  justify-content: space-around;
+}
+
+.columnangebote {
+  flex: 33.33%;
+  padding: 5px;
+  
+}
+
 h3 {
   position: relative;
   right: 6%;
@@ -42,6 +57,7 @@ h3 {
 
 td {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 2px;
 }
 
 p {
@@ -344,6 +360,22 @@ p, h1, h2, h3 {
 
 td {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 2px;
+}
+
+.angebotebilder {
+  width: 25vw;
+}
+
+.rowangebote {
+  display: flex;
+  justify-content: space-around;
+}
+
+.columnangebote {
+  flex: 33.33%;
+  padding: 5px;
+  
 }
 
 p {
