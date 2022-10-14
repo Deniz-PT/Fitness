@@ -85,7 +85,8 @@ p {
   }
 
 .groesseBild {
-    width: 40%; 
+    width: 40%;
+    border-radius: 100%; 
 }
 
 .h1index{
@@ -94,14 +95,12 @@ p {
 }
 
 .standorttext {
-    text-decoration: underline;
     text-align: center;
 }
 
 .imagesstandorte {
-    border-radius: 14%;
+    border-radius: 20%;
     width: 90%;
-    height: 90%;
 }
 
 .teamh2 {
@@ -402,7 +401,8 @@ p {
   }
 
 .groesseBild {
-    width: 40%; 
+    width: 40%;
+    border-radius: 100%;  
 }
 
 .h1index{
@@ -411,7 +411,6 @@ p {
 }
 
 .standorttext {
-    text-decoration: underline;
     text-align: left;
     font-size: 150%;
 }
@@ -419,10 +418,12 @@ p {
 .imagesstandorte {
   display: flex;
   width: 40vw;
-  float: left;
+  float:left;
   align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+      justify-content: space-around;
+    border-radius: 20%;
+    
 }
 
 .teamh2 {
